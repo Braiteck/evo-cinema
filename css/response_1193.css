@@ -1,0 +1,699 @@
+@media print,
+(max-width: 1193px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 14px;
+        --font_size_title: 32px;
+    }
+
+    .cont
+    {
+        padding: 0 32px;
+    }
+
+
+    .swiper-container-horizontal > .swiper-pagination-bullets,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction
+    {
+        right: 12px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        height: 244px;
+        padding-top: 24px;
+    }
+
+
+    header .contacts
+    {
+        width: 216px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .title
+    {
+        line-height: 49px;
+    }
+
+
+    .block_head .desc
+    {
+        font-size: 17px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .input
+    {
+        font-size: 19px;
+
+        height: 60px;
+        padding: 0 18px;
+    }
+
+
+    .form .submit_btn
+    {
+        font-size: 19px;
+        line-height: 27px;
+
+        height: 60px;
+        padding: 12px 24px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider .slide
+    {
+        height: 244px;
+    }
+
+
+
+    /*-----------------------
+        Full construction
+    -----------------------*/
+    .full_construction
+    {
+        padding: 52px 0;
+    }
+
+
+    .full_construction .data
+    {
+        width: calc(100% - 266px);
+    }
+
+
+    .full_construction .data .title
+    {
+        font-size: 38px;
+        line-height: 48px;
+    }
+
+
+    .full_construction .data .desc
+    {
+        font-size: 17px;
+        line-height: 25px;
+
+        margin-top: 24px;
+    }
+
+
+    .full_construction .data .link
+    {
+        margin-top: 40px;
+    }
+
+    .full_construction .data .link a
+    {
+        font-size: 20px;
+        line-height: 29px;
+
+        padding: 15px 31px;
+
+        border-width: 1px;
+    }
+
+
+    .full_construction .stats
+    {
+        width: 204px;
+    }
+
+
+
+    /*-----------
+        About
+    -----------*/
+    .about
+    {
+        padding: 52px 0 26px;
+    }
+
+
+    .about .item .number
+    {
+        font-size: 64px;
+    }
+
+
+    .about .item .name
+    {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .about .item .desc
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+
+    /*---------------
+        Equipment
+    ---------------*/
+    .equipment
+    {
+        padding-top: 26px;
+        padding-bottom: 52px;
+    }
+
+
+    .equipment .block_head
+    {
+        margin-bottom: 52px !important;
+    }
+
+
+    .equipment .data
+    {
+        width: calc(100% + 64px);
+        height: 652px;
+        margin-right: -32px;
+        margin-left: -32px;
+    }
+
+
+    .equipment .image
+    {
+        width: 720px;
+    }
+
+
+    .equipment .item1,
+    .equipment .item2
+    {
+        width: 292px;
+    }
+
+    .equipment .item3
+    {
+        width: 276px;
+    }
+
+    .equipment .item4
+    {
+        width: 264px;
+    }
+
+    .equipment .item5 .bg
+    {
+        width: 256px;
+    }
+
+
+    .equipment .item .bg
+    {
+        padding: 16px 20px;
+    }
+
+
+    .equipment .item .name
+    {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+
+
+    /*----------------
+        Info block
+    ----------------*/
+    .info_block
+    {
+        padding-bottom: 72px;
+    }
+
+
+
+    .info_block .btns .btn
+    {
+        line-height: 49px;
+    }
+
+    .info_block .btns .btn .icon
+    {
+        width: 25px;
+        height: 14px;
+        margin-left: 12px;
+    }
+
+
+
+    .info_block .stages
+    {
+        padding-top: 32px;
+    }
+
+
+    .info_block .stages .block_desc
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+
+    .info_block .stages .item .number,
+    .info_block .stages .item .title
+    {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .info_block .stages .item .desc
+    {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+
+    .info_block .stages .item .image,
+    .info_block .stages .item:nth-child(2n+1) .image
+    {
+        width: 100%;
+        margin-top: 32px;
+
+        order: 2;
+    }
+
+
+    .info_block .stages .item .info,
+    .info_block .stages .item:nth-child(2n) .info
+    {
+        width: 100%;
+
+        order: 1;
+    }
+
+
+
+    .info_block .production
+    {
+        padding-top: 32px;
+    }
+
+
+    .info_block .production .block_desc
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+
+    .info_block .production .item + .item
+    {
+        margin-top: 52px;
+    }
+
+    .info_block .production .item .info
+    {
+        width: calc(100% - 364px);
+        padding: 31px 43px 31px 0;
+    }
+
+    .info_block .production .item:nth-child(2n) .info
+    {
+        width: calc(100% - 364px);
+    }
+
+
+    .info_block .production .item .image,
+    .info_block .production .item:nth-child(2n) .image
+    {
+        width: 324px;
+    }
+
+
+    .info_block .production .item .title
+    {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+
+    .info_block .production .item .desc
+    {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+
+
+    .info_block .consult_link a
+    {
+        font-size: 20px;
+        line-height: 26px;
+
+        padding: 20px 42px;
+    }
+
+
+
+    /*-----------------
+        Order block
+    -----------------*/
+    .order_block
+    {
+        margin-bottom: 72px;
+        padding: 52px 0;
+    }
+
+
+    .order_block .title
+    {
+        font-size: 27px;
+        line-height: 35px;
+    }
+
+
+    .order_block .desc
+    {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+
+    .order_block .form
+    {
+        margin-top: 28px;
+        margin-left: -20px;
+    }
+
+    .order_block .form .line,
+    .order_block .form .submit
+    {
+        width: calc(33.333% - 20px);
+        margin-left: 20px;
+    }
+
+    .order_block .form .agree
+    {
+        width: calc(100% - 20px);
+        margin-left: 20px;
+    }
+
+
+
+    /*---------------
+        Portfolio
+    ---------------*/
+    .portfolio .vertical_title
+    {
+        display: none;
+    }
+
+
+    .portfolio .item .images
+    {
+        width: 100%;
+    }
+
+
+    .portfolio .item .data
+    {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+
+    .portfolio .cont > .swiper-container .inside-swiper-button-prev
+    {
+        right: auto;
+        left: 50%;
+
+        margin-left: -32px;
+    }
+
+    .portfolio .cont > .swiper-container .inside-swiper-button-next
+    {
+        right: 50%;
+
+        margin-right: -32px;
+    }
+
+
+
+    /*------------------
+        Presentation
+    ------------------*/
+    .presentation
+    {
+        margin-bottom: 104px;
+    }
+
+
+    .presentation .data
+    {
+        width: 380px;
+    }
+
+
+    .presentation .title
+    {
+        font-size: 23px;
+        line-height: 35px;
+    }
+
+
+    .presentation .block_desc
+    {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    .presentation .block_desc .arrow
+    {
+        bottom: -40px;
+
+        width: 116px;
+    }
+
+
+    .presentation .form
+    {
+        margin-right: 0;
+    }
+
+    .presentation .form .input
+    {
+        font-size: 17px;
+
+        height: 64px;
+        padding: 0 23px;
+    }
+
+    .presentation .form .submit_btn
+    {
+        font-size: 16px;
+        line-height: 20px;
+
+        height: 64px;
+    }
+
+
+
+    /*----------
+        Team
+    ----------*/
+    .team
+    {
+        margin-bottom: 72px;
+    }
+
+
+    .team .block_desc
+    {
+        font-size: 17px;
+        line-height: 23px;
+
+        margin-bottom: 52px;
+    }
+
+
+    .team .row
+    {
+        margin-bottom: -40px;
+        margin-left: -32px;
+    }
+
+    .team .row > *
+    {
+        width: calc(33.333% - 32px);
+        margin-bottom: 40px;
+        margin-left: 32px;
+    }
+
+
+    .team .person .name
+    {
+        font-size: 17px;
+        line-height: 21px;
+    }
+
+
+
+    /*-------------
+        Youtube
+    -------------*/
+    .youtube
+    {
+        margin-bottom: 104px;
+    }
+
+
+    .youtube .data
+    {
+        font-size: 17px;
+        line-height: 25px;
+
+        width: calc(100% - 404px);
+    }
+
+    .youtube .data > * + *
+    {
+        margin-top: 20px;
+    }
+
+
+    .youtube .data .link a
+    {
+        font-size: 18px;
+        line-height: 26px;
+
+        padding: 14px 30px;
+    }
+
+
+    .youtube .video_link
+    {
+        width: 352px;
+        padding: 19px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .cont
+    {
+        height: 300px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+
+
+    /*----------
+        Test
+    ----------*/
+    .test
+    {
+        padding: 52px 0 72px;
+    }
+
+
+    .test .title
+    {
+        font-size: 36px;
+        line-height: 46px;
+    }
+
+
+    .test .desc
+    {
+        font-size: 17px;
+        line-height: 25px;
+
+        width: calc(100% - 352px);
+    }
+
+
+    .test .link
+    {
+        width: 300px;
+    }
+
+    .test .link a
+    {
+        font-size: 17px;
+        line-height: 25px;
+
+        padding: 14px 30px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .cont + .cont
+    {
+        margin-top: 32px;
+    }
+
+
+    footer .menu
+    {
+        font-size: 15px;
+        line-height: 21px;
+
+        width: 232px;
+    }
+
+
+    footer .callback_btn
+    {
+        font-size: 17px;
+        line-height: 25px;
+
+        width: 232px;
+        padding: 14px 30px;
+    }
+
+
+    footer .center
+    {
+        width: 100%;
+        margin-top: 32px;
+
+        order: 3;
+    }
+}
