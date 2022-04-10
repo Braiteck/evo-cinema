@@ -3,6 +3,10 @@ $(() => {
 	WW = $(window).width()
 
 
+	// Маска ввода
+	$('input[type=tel]').inputmask('+7-999-999-99-99')
+
+
 	// Основной слайдер на главной
 	if ($('.main_slider .swiper-container').length) {
 		new Swiper('.main_slider .swiper-container', {
@@ -117,20 +121,30 @@ $(() => {
 
 	// Этапы стороительства
 	$('.info_block .stages_btn').click(function (e) {
-		$('.info_block .btns .btn').removeClass('active')
-		$(this).addClass('active')
+		if (!$(this).hasClass('active')) {
+			$('.info_block .btns .btn').removeClass('active')
+			$(this).addClass('active')
 
-		$('.info_block .production').slideUp(300)
-		$('.info_block .stages').slideDown(500)
+			$('.info_block .production').slideUp(300)
+			$('.info_block .stages').slideDown(500)
+		} else {
+			$('.info_block .btns .btn').removeClass('active')
+			$('.info_block .stages').slideUp(300)
+		}
 	})
 
 	// Производство
 	$('.info_block .production_btn').click(function (e) {
-		$('.info_block .btns .btn').removeClass('active')
-		$(this).addClass('active')
+		if (!$(this).hasClass('active')) {
+			$('.info_block .btns .btn').removeClass('active')
+			$(this).addClass('active')
 
-		$('.info_block .stages').slideUp(300)
-		$('.info_block .production').slideDown(500)
+			$('.info_block .stages').slideUp(300)
+			$('.info_block .production').slideDown(500)
+		} else {
+			$('.info_block .btns .btn').removeClass('active')
+			$('.info_block .production').slideUp(300)
+		}
 	})
 
 
